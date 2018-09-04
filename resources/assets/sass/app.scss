@@ -4,12 +4,72 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-/* header */
-.navbar {
-  min-height: 1em;
+//Font-awesome
+@import "~font-awesome/scss/font-awesome";
+
+$border-color: #d3e0e9;
+
+$main-color: RGB(142,204,105);
+
+$main-bg-color: #f5f8fa;
+
+$color-white: white;
+
+.bg-color-white {
+  background: $color-white;
 }
 
-.navbar-nav > li > a {
-  padding: 5px 0;
+.border-bottom {
+  width: 100%;
+  border-bottom: 1px solid $border-color;
+}
+
+.border-top {
+  width: 100%;
+  border-top: 1px solid $border-color;
+}
+
+/* header */
+header {
+  background: $main-bg-color !important;
+}
+
+.navbar {
+  min-height: 1em;
+  margin-bottom: 0;
+}
+
+.header-top > .navbar-nav > li > a {
+  padding: 4px 0;
   font-size: 0.85em;
+  &:hover {
+    color: $main-color;
+  }
+}
+
+.header-item {
+  height: 80px;
+}
+
+.navbar-header > .navbar-brand {
+  font-size: 2em;
+  padding-top: 29px;
+  color: $main-color;
+}
+
+.header-item > .navbar-nav > li > a {
+  margin-left: 30px;
+  font-size: 1.2em;
+  padding-top: 29px;
+  padding-bottom: 29px;
+
+  &:hover{
+    color: $main-color;
+  }
+}
+
+/* footer */
+footer {
+  background: $color-white;
+  line-height: 50px;
 }

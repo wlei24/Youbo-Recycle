@@ -1,7 +1,8 @@
-<header class="navbar navbar-default navbar-fixed-top">
-	<div class="container" style="border-bottom: 1px solid #f3f3f3">
+<header class="navbar navbar-default">
+	{{--navbar-fixed-top--}}
+	<div class="container">
 		<div class="col-md-12">
-			<nav>
+			<nav class="header-top">
 				<ul class="nav navbar-nav navbar-left">
 					<li>
 						<a href="#">
@@ -22,7 +23,7 @@
 					</li>
 				</ul>
 			</nav>
-			<nav>
+			<nav class="header-top">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="#">
@@ -43,6 +44,40 @@
 					</li>
 				</ul>
 			</nav>
+		</div>
+	</div>
+	<div class="border-bottom"></div>
+
+	<div class="bg-color-white">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<i class="fa fa-send"></i>
+						{{ config('app.name') }}
+					</div>
+				</div>
+
+				<nav class="header-item">
+					<ul class="nav navbar-right navbar-nav">
+						<li>
+							<a href="#">旧机回收</a>
+						</li>
+						<li>
+							<a href="#">二手良品</a>
+						</li>
+						<li>
+							<a href="#">手机快修</a>
+						</li>
+						<li>
+							<a href="#">旧机换新</a>
+						</li>
+						<li>
+							<a href="#">分销合作</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</div>
 </header>

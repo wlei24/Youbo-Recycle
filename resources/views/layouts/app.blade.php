@@ -6,6 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link type="text/css" rel="stylesheet" href="/css/app.css"/>
+
+		@if(Route::currentRouteName()  == 'index')
+		<link type="text/css" rel="stylesheet" href="/css/index.css"/>
+		@endif
 	</head>
 
 	<body>

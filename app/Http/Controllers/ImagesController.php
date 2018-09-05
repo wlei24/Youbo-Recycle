@@ -43,7 +43,7 @@ class ImagesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  string  $fileName
      * @return \Illuminate\Http\Response
      */
     public function show($fileName)

@@ -51,15 +51,35 @@
 	<div class="bg-color-white">
 		<div class="container">
 			<div class="col-md-12">
-				<div class="navbar-header">
-					<div class="navbar-brand">
-						<i class="fa fa-send"></i>
-						{{ config('app.name') }}
+				<div class="row">
+					<div class="col-md-3">
+						<div class="navbar-header">
+							<div class="navbar-brand">
+								<i class="fa fa-send"></i>
+								{{ config('app.name') }}
+							</div>
+						</div>
 					</div>
-				</div>
 
+					<div class="col-md-6">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="搜索回收机型">
+							<span class="input-group-btn">
+        						<button class="btn btn-success" type="button">&nbsp;搜索&nbsp;</button>
+      						</span>
+						</div>
+					</div>
+
+					<button class="btn btn-success col-md-2 col-md-offset-1">
+						<i class="glyphicon glyphicon-shopping-cart"></i>
+						<span>购物车</span>
+					</button>
+				</div>
+			</div>
+
+			<div class="col-md-12">
 				<nav class="header-item">
-					<ul class="nav navbar-right navbar-nav">
+					<ul class="nav navbar-left navbar-nav">
 						<li>
 							<a href="#">旧机回收</a>
 						</li>

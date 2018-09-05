@@ -11434,28 +11434,46 @@ header {
 }
 
 .header-top > .navbar-nav > li > a:hover {
-  color: RGB(142, 204, 105);
+  color: #2ab27b;
 }
 
 .header-item {
-  height: 80px;
+  margin-top: 5px;
+}
+
+.navbar-header {
+  position: relative;
+  bottom: 6px;
 }
 
 .navbar-header > .navbar-brand {
-  font-size: 2em;
-  padding-top: 29px;
-  color: RGB(142, 204, 105);
+  font-size: 2.2em;
+  color: #2ab27b;
 }
 
 .header-item > .navbar-nav > li > a {
-  margin-left: 30px;
+  padding: 10px 40px;
   font-size: 1.2em;
-  padding-top: 29px;
-  padding-bottom: 29px;
 }
 
 .header-item > .navbar-nav > li > a:hover {
-  color: RGB(142, 204, 105);
+  color: #2ab27b;
+}
+
+.row {
+  padding-top: 22px;
+}
+
+.form-control {
+  height: 42px;
+}
+
+.form-control:focus {
+  border-color: #2ab27b;
+}
+
+.btn {
+  padding: 9px 10px;
 }
 
 /* footer */

@@ -9,7 +9,7 @@
 
 $border-color: #d3e0e9;
 
-$main-color: RGB(142,204,105);
+$main-color: #2ab27b;
 
 $main-bg-color: #f5f8fa;
 
@@ -48,24 +48,40 @@ header {
 }
 
 .header-item {
-  height: 80px;
+  margin-top: 5px;
 }
 
-.navbar-header > .navbar-brand {
-  font-size: 2em;
-  padding-top: 29px;
-  color: $main-color;
+.navbar-header {
+  position: relative;
+  bottom: 6px;
+  & > .navbar-brand {
+    font-size: 2.2em;
+    color: $main-color;
+  }
 }
 
 .header-item > .navbar-nav > li > a {
-  margin-left: 30px;
+  padding: 10px 40px;
   font-size: 1.2em;
-  padding-top: 29px;
-  padding-bottom: 29px;
 
   &:hover{
     color: $main-color;
   }
+}
+
+.row {
+  padding-top: 22px;
+}
+
+.form-control {
+  height: 42px;
+  &:focus {
+    border-color: $main-color;
+  }
+}
+
+.btn {
+  padding: 9px 10px;
 }
 
 /* footer */

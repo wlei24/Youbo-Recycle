@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'IndexController@index')->name('index');
+
+Route::resource('/images', 'ImagesController');

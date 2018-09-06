@@ -70,10 +70,12 @@
 						</div>
 					</div>
 
-					<button class="btn btn-success col-md-2 col-md-offset-1">
-						<i class="glyphicon glyphicon-shopping-cart"></i>
-						<span>购物车</span>
-					</button>
+					<div class="col-md-2 col-md-offset-1 text-right">
+						<button class="btn btn-success" style="width: 80%;">
+							<i class="glyphicon glyphicon-shopping-cart"></i>
+							<span>购物车</span>
+						</button>
+					</div>
 				</div>
 			</div>
 

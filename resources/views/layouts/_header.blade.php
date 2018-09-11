@@ -84,6 +84,15 @@
 					<ul class="nav navbar-left navbar-nav">
 						<li>
 							<a href="#">旧机回收</a>
+							<div class="brand-list" style="position: absolute;width: 100%;background: pink;z-index: 10000">
+								<ul>
+									<li>111</li>
+									<li>222</li>
+									<li>333</li>
+									<li>444</li>
+									<li>555</li>
+								</ul>
+							</div>
 						</li>
 						<li>
 							<a href="#">二手良品</a>
